@@ -3,7 +3,7 @@
  * @version: 
  * @Author: big bug
  * @Date: 2019-09-17 14:12:20
- * @LastEditTime: 2019-09-17 14:12:20
+ * @LastEditTime: 2020-02-20 15:27:13
  */
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
@@ -12,7 +12,7 @@ import App from './App';
 // 路由
 import router from './common/router/index';
 // vuex
-import store from './algorithm/store';
+import store from './students/store';
 // 过滤器
 import Filter from './common/filter';
 // antd-vue
@@ -30,9 +30,9 @@ Vue.use(Antd);
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  store,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    store,
+    components: { App },
+    template: '<App/>'
 })
