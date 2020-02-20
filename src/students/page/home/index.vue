@@ -3,7 +3,7 @@
  * @version:
  * @Author: big bug
  * @Date: 2019-09-17 15:19:32
- * @LastEditTime: 2019-09-27 16:28:12
+ * @LastEditTime: 2020-02-20 16:40:01
  -->
 <template>
   <page-common :loading="loading" :is-exist="isExist">
@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import myHeader from "@/common/component/layout/header.vue";
+import myHeader from "@/common/component/layout/header/index.vue";
 import leftMenu from "@/common/component/vue-anchor/index.vue";
 import backTop from "@/common/component/back-top/index.vue";
 
